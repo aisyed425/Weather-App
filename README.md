@@ -1,44 +1,55 @@
-# Weather-App
-A simple weather app created in visual studio code. Used HTML, CSS, and JS
+# Weather App ☀️
+A simple weather application that fetches real-time weather data using the **OpenWeather API**. Users can search by city, zip code, or GPS location to get current weather details and a 5-day forecast.
 
-## Features:
-- Current weather data (temperature, condition, humidity, wind speed).
-- 5-day weather forecast with temperature and condition for each day.
-- "Use My Location" button to fetch weather data based on the user's current location.
-- Information about the app in the "Info" section.
+## Installation & Setup
+Follow these steps to run the project on your local machine:
 
-## Technologies Used:
-- **HTML**: Structure of the web page.
-- **CSS**: Styling for the user interface.
-- **JavaScript**: Fetches data from the OpenWeather API and handles user interactions.
-- **OpenWeather API**: Used for fetching weather data.
-- **Restcountries API**: Fetches country names based on country codes.
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
 
-### Instructions:
-git clone https://github.com/aisyed425/Weather-App.git
-cd Weather-App
-Since this is a front-end project, you only need to open the index.html file in a browser.
+### 2️⃣ Open the Project
+Since this is a front-end project, you only need to open the `index.html` file in a browser.  
 
-If you want to run a local server (optional but recommended for API calls):
+If you want to run a local server (optional but recommended for API calls):  
 
-Using VS Code Live Server Extension:
+- **Using VS Code Live Server Extension**:  
+  1. Open the project in **VS Code**  
+  2. Install the **Live Server** extension  
+  3. Right-click `index.html` and select **"Open with Live Server"**  
 
-Open the project in VS Code
+- **Using Python HTTP Server**:  
+  ```bash
+  python -m http.server 8000
+  ```
+  Then open `http://localhost:8000/` in your browser.
 
-Install the Live Server extension
+## How It Works
+✅ **Search for Weather** using a city name, zip code, or GPS coordinates  
+✅ **Use My Location** to get weather automatically using geolocation  
+✅ **Displays Current Weather** (Temperature, Humidity, Wind Speed, Condition)  
+✅ **5-Day Forecast** for extended weather details  
 
-Right-click index.html and select "Open with Live Server"
+## API Usage
+This project uses the **OpenWeather API**. You'll need an API key:  
+1. Sign up at [OpenWeather](https://openweathermap.org/)  
+2. Replace the placeholder in `script.js`:  
 
+   ```js
+   const API_KEY = 'your-api-key-here';
+   ```
 
-How It Works
-✅ Search for Weather using a city name, zip code, or GPS coordinates
-✅ Use My Location to get weather automatically using geolocation
-✅ Displays Current Weather (Temperature, Humidity, Wind Speed, Condition)
-✅ 5-Day Forecast for extended weather details
+## Technologies Used
+- HTML, CSS, JavaScript  
+- OpenWeather API  
+- Geolocation API  
 
-API Usage
-This project uses the OpenWeather API. You'll need an API key:
+## Contributing
+Feel free to fork the repo and submit pull requests. 🎉  
 
-Sign up at OpenWeather
+---
 
-Replace the placeholder in script.js:
+Replace `your-username` and `your-repository` with your actual GitHub info. Let me know if you need modifications! 🚀
+
