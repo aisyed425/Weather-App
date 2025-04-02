@@ -6,8 +6,8 @@ Follow these steps to run the project on your local machine:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/aisyed425/Weather-App.git
+cd Weather-App
 ```
 
 ### 2️⃣ Open the Project
@@ -48,8 +48,3 @@ This project uses the **OpenWeather API**. You'll need an API key:
 
 ## Contributing
 Feel free to fork the repo and submit pull requests. 🎉  
-
----
-
-Replace `your-username` and `your-repository` with your actual GitHub info. Let me know if you need modifications! 🚀
-
