@@ -28,6 +28,8 @@ Open the project in VS Code
 Install the Live Server extension
 
 Right-click index.html and select "Open with Live Server"
+
+
 How It Works
 ✅ Search for Weather using a city name, zip code, or GPS coordinates
 ✅ Use My Location to get weather automatically using geolocation
