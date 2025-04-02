@@ -4,6 +4,8 @@ A simple weather application that fetches real-time weather data using the **Ope
 ## Installation & Setup
 Follow these steps to run the project on your local machine:
 
+In master branch:
+
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/aisyed425/Weather-App.git
