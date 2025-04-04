@@ -1,4 +1,4 @@
-const API_KEY = 'API-KEY'; // Replace with your API key
+const API_KEY = 'bd5e378503939ddaee76f12ad7a97608'; // Replace with your API key
 
 async function getWeather() {
     const location = document.getElementById('location').value.trim();
